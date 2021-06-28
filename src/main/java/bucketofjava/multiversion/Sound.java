@@ -1,4 +1,4 @@
-package thirtyvirus.multiversion;
+package bucketofjava.multiversion;
 
 import org.bukkit.Location;
 import org.bukkit.entity.Player;

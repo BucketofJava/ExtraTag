@@ -1,4 +1,4 @@
-package thirtyvirus.template.helpers;
+package bucketofjava.tags.helpers;
 
 public enum ActionSound {
     OPEN,

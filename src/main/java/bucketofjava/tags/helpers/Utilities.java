@@ -1,4 +1,4 @@
-package thirtyvirus.template.helpers;
+package bucketofjava.tags.helpers;
 
 import com.google.common.io.ByteStreams;
 import org.bukkit.ChatColor;
@@ -10,10 +10,10 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.Plugin;
-import thirtyvirus.multiversion.Sound;
-import thirtyvirus.multiversion.Version;
-import thirtyvirus.multiversion.XMaterial;
-import thirtyvirus.template.TemplatePlugin;
+import bucketofjava.multiversion.Sound;
+import bucketofjava.multiversion.Version;
+import bucketofjava.multiversion.XMaterial;
+import bucketofjava.tags.TagsPlugin;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -111,14 +111,14 @@ public final class Utilities {
         }
 
         for (String message : messages) {
-            sender.sendMessage(TemplatePlugin.prefix + ChatColor.RESET + ChatColor.RED + message);
+            sender.sendMessage(TagsPlugin.prefix + ChatColor.RESET + ChatColor.RED + message);
         }
     }
 
     // send player a collection of messages
     public static void informPlayer(CommandSender player, List<String> messages) {
         for (String message : messages) {
-            player.sendMessage(TemplatePlugin.prefix + ChatColor.RESET + ChatColor.GRAY + message);
+            player.sendMessage(TagsPlugin.prefix + ChatColor.RESET + ChatColor.GRAY + message);
         }
     }
 

@@ -1,4 +1,4 @@
-package thirtyvirus.multiversion;
+package bucketofjava.multiversion;
 /**
  * The MIT License (MIT)
  * <p>
